@@ -12,7 +12,7 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         boolean isFizz = i % 3 == 0;
         boolean isBuzz = i % 5 == 0;
         if (isFizz && isBuzz){
