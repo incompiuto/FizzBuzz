@@ -2,7 +2,10 @@ package lab1;
 
 public class Reduce {
     public static void main(String[] args) {
-        int n = 100;
+        System.out.println(reduce(100));
+    }
+
+    private static int reduce(int n) {
         int steps = 0;
         while (n > 0){
             if (n % 2 == 0){
@@ -13,7 +16,6 @@ public class Reduce {
             }
             steps++;
         }
-        System.out.println(steps);
-
+        return steps;
     }
 }
