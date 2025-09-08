@@ -18,4 +18,8 @@ public class Reduce {
         }
         return steps;
     }
+
+    public static int reduce() {
+        return reduce(100);
+    }
 }
